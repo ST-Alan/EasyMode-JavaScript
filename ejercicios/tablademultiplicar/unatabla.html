@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .container{
+        width: 1200px;
+        min-height: 400px;
+        background-color: aqua;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <div id="tablaMultiplicar" class="container">
+        <label>Ingresar el número de la tabla que desea mostrar</label>
+        <input type="text" name="numero" id="tablaNumero">
+        <label>Multiplicar desde el cero hasta:</label>
+        <input type="text" name="numeroMultiplicar" id="numeroMult">
+        <button onclick="mostrarTabla()">Mostrar Tabla</button>
+    </div>
+</body>
+<script src="./unaTabla.js"></script>
+</html>

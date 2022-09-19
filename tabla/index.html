@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de multiplicar</title>
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <h3>Tabla de Multiplicar</h3>
+        </div>
+        <div id="cuerpo">
+            <form action="" method="get">
+                <label for="">Inserte la cantidad de tablas que desea mostrar</label>
+                <input type="number" name="cantidadTablas" id="cantidadT">
+                <label for="omitirTabla">Ingrese la tabla que desea omitir</label>
+                <input type="number" name="omitirTabla" id="omitirT">
+                <label for="interno">Ingrese la cantidad de múltiplos de cada tabla</label>
+                <input type="number" name="cantidadMultiplos" id="cantidadM">
+                <label for="omitirMultiplo ">Ingrese el múltiplo que desea omitir</label>
+                <input type="number" name="omitirMultiplo" id="omitirM">
+                <button type="submit">Generar Tablas</button>
+            </form>
+            <div class="resultados"></div>
+        </div> 
+    </div>
+
+</body>
+<script src="./tabla.js"></script>
+</html>
