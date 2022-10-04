@@ -1,7 +1,8 @@
 // Captura el índice de los elementos dentro de un array. Estructura de control para recorrer objetos iterables (Array, String, Map, Set, custom_objects)
 // Para el array captura el index
 // Para el objeto captura la propiedad
-//También captura el key, pero no recuerdo cuál
+// También captura el key, pero no recuerdo cuál
+// Imprime el número del index de forma predetermianda
 
 
 let el = document.getElementById("elementForin")
