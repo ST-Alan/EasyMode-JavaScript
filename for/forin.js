@@ -6,7 +6,7 @@
 
 
 let el = document.getElementById("elementForin")
-let granja = ["Piñas pequeña", "Piñas mediana", "Piñas grande"]
+let granja = ["Piñas pequeña", "Piñas medianas", "Piñas grandes"]
 
 for (let piña in granja){
     el.innerHTML += `<p>El índice corresponde al número:<i> ${piña}</i></p>`
